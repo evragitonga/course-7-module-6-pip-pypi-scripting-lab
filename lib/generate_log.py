@@ -18,6 +18,8 @@ def generate_log(data):
             
     # STEP 4: Print a confirmation message with the filename
     print(f"Log written to {filename}")
+    
+    return filename
 
 data = ["User logged in", "User updated profile", "Report exported"]   
 generate_log(data)
