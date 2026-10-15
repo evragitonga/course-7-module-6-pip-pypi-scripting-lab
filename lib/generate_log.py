@@ -20,6 +20,3 @@ def generate_log(data):
     print(f"Log written to {filename}")
     
     return filename
-
-data = ["User logged in", "User updated profile", "Report exported"]   
-generate_log(data)
